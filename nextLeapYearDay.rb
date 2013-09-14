@@ -8,7 +8,6 @@ def wday(day)
  return days[day]
 end
 		
-
 while year < maxyear
 	curdate = Time.new(year,2,29)
 	if curdate.day == 29
