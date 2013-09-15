@@ -4,7 +4,7 @@ year = Time.now().year
 maxyear = year + 50
 
 def wday(day)
- days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+ days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
  return days[day]
 end
 		
